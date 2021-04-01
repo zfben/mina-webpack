@@ -34,7 +34,7 @@ test('subpackages', async t => {
   // sub1
   t.deepEqual(JSON.parse(mfs.readFileSync('/sub1/page1.json', 'utf-8')), {
     usingComponents: {
-      a: './_/components/a', // a is moved to sub1
+      a: './../components/a', // a is moved to sub1
       b: './../components/b', // b is shared from sub1, sub2, so it's not moved
     },
   })

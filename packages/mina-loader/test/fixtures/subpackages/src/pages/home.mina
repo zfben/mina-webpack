@@ -2,6 +2,8 @@
 {
   "usingComponents": {
     "logo": "~logo.mina",
+    "a": "/components/a.mina",
+    "b": "/components/b.mina"
   }
 }
 </config>
